@@ -5,6 +5,10 @@
   font-family: 'Bebas Neue', sans-serif;
 }
 
+*:focus {
+  outline: 0 !important;
+}
+
 html, body {
   height: 100%;
 }
@@ -65,6 +69,118 @@ section .middle-text h2 {
   color: #008000;
   position: relative;
   top: 238px;
+}
+
+section.div-bar {
+  padding: 60px 0 5px 0;
+  width: 100%;
+  background-color: #883dff;
+}
+
+section.div-bar .container h2 {
+  font-size: 45px;
+  color: white;
+}
+
+section.about {
+  padding: 30px 0;
+}
+
+section .custom-title {
+  position: relative;
+}
+
+.custom-title h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.p-text p {
+  font-size: 18px;
+}
+
+section.about button:not(.close) {
+  background-color: #008000;
+  border: 0;
+  color: white;
+}
+
+section.about button:hover:not(.close) {
+  background-color: #006000;
+}
+
+section.about button:focus:not(.close) {
+  background-color: #008000;
+}
+
+section.about .model-body {
+  text-align: center;
+  padding: 15px 4% 0 4%;
+}
+
+section.three-info {
+  padding: 10px 0;
+}
+
+section.three-info .txtfix p {
+  text-align: justify;
+  font-size: 17px;
+}
+
+section.three-info .txtborder {
+  padding: 5px 0;
+  border-bottom: 3px solid #883dff;
+}
+
+section.src-bar {
+  padding: 50px 0 30px 0;
+  width: 100%;
+  background-color: #883dff;
+}
+
+section.src-bar h2 {
+  font-size: 28px;
+  color: white;
+  border-bottom: 3px solid #7722ff;
+  display: inline-block;
+}
+
+section.src-bar i {
+  margin-right: 15px;
+}
+
+section.src-bar .form-group {
+  height: 30px !important;
+}
+
+section.src-bar input {
+  width: 65%;
+  padding: 0px 5px;
+  height: 100%;
+}
+
+section.src-bar input::placeholder {
+  padding-left: 5px;
+}
+
+section.src-bar button {
+  cursor: pointer;
+  width: 30%;
+  height: 100%;
+  background-color: #008000;
+  border: 0;
+  color: white;
+}
+
+section.src-bar button:hover {
+  background-color: #006000;
+}
+
+footer {
+  padding: 15px 0 1px 0;
+  background-color: #7722ff;
+  color: white;
+  font-size: 19px;
 }
 
 @media screen and (max-width: 768px) {
